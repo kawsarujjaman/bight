@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+body{
+    margin:0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+            font-family: ubuntu;
+}
+header.headerClass {
+    background-image: bg 1.jpg;
+}
+
+header.headerClass {
+    background: blue;
+    background-repeat: repeat;
+    background-size: cover;
+    background-image: url("bg 2.jpg");
+    color: white;
+    border-bottom-right-radius: 100px;
+}
+nav.navBar {
+    padding-left: 100px;
+    padding-right: 100px;
+    display: inline-flex;
+}
+
+.rightNav ul {display: flex;margin-left: 100%;}
+
+.rightNav ul li {
+    padding: 20px;
+    contain: content;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.headerSlide {
+    width: 600px;
+    margin: auto;
+}
+
+.headerSlide h3 {
+    width: 160px;
+    margin: auto;
+}
+
+.headerSlide h1 {
+    margin: auto;
+    width: 350px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.headerSlide p {
+    margin: auto;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.leftContactContent img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    width: 600px;
+    margin-top: -55px;
+    padding-right: 50px;
+}
+
+section.contactUs {
+    padding-bottom: 70px;
+}
+.contactUs h1 {
+    padding-top: 70px;
+    margin-left: 40%;
+    padding-bottom: 70px;
+}
+.contactContent {
+    display: flex;
+    padding-left: 50px;
+    padding-right: 100px;
+}
+.rightContactContent input {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 10px;
+    padding-right: 100px;
+    border: none;
+    background: beige;
+    border-radius: 5px;
+    border-bottom-right-radius: 50px;
+}
+.rightContactContent select {
+    margin-bottom: 20px;
+    padding: 10px;
+    padding-right: 170px;
+    border: none;
+    background: beige;
+    border-radius: 5px;
+    border-bottom-right-radius: 50px;
+}
+textarea.textArea {
+    display: block;
+    border: none;
+    background: beige;
+    border-radius: 5px;
+    border-bottom-right-radius: 50px;
+    resize: none;
+}
+.contactBtn {
+    margin-top: 20px;
+    font-size: 15px;
+    color: white;
+    background: #0951A0;
+    padding: 10px;
+    border: none;
+    border-radius: 100px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+.subsWrapper {
+    width: 1000px;
+    margin: auto;
+    border-bottom-right-radius: 100px;
+    box-shadow: 1px -1px 1px 1px #efefef;
+}
+
+.subsWrapper {
+    width: 1000px;
+    margin: auto;
+    border-bottom-right-radius: 100px;
+    box-shadow: 1px -1px 1px 1px #efefef;
+    display: flex;
+    background: white;
+    z-index: 99;
+    position: relative;
+    padding: 40px;
+}
+
+.leftSubsContent {
+    margin-right: 300px;
+    padding-left: 50px;
+}
+
+.leftSubsContent h2 {
+    color: #0951a0;
+    width: 200px;
+    font-size: 18px;
+}
+
+.rightSubsContent {
+    width: fit-content;
+    padding-top: 40px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.rightSubsContent input {
+    padding: 10px;
+    padding-right: 50px;
+    border: none;
+    background: beige;
+    border-radius: 50px;
+    position: relative;
+}
+
+i.fas.fa-arrow-alt-circle-right {
+    color: #09510a;
+    font-size: 40px;
+    margin-left: -20px;
+    position: absolute;
+}
+
+.footerSection {
+    background: #0951a0;
+    color: white;
+    overflow: hidden;
+    border-top-left-radius: 100px;
+    margin-top: -90px;
+}
+
+
+.footerWrapper {
+    width: 1200px;
+    margin: auto;
+}
+
+.topFooter {
+    display: flex;
+    padding-top: 150px;
+}
+
+.footerCol1 {
+    width: 250px;
+}
+
+.footerCol2 {
+    width: 300px;
+}
+
+.footerCol3 {
+    width: 300px;
+}
+
+.footerCol4 {
+    width: 250px;
+}
+.col1Lan {
+    display: flex;
+}
+
+.col1Lan p {
+    font-size: 12px;
+    padding-right: 6px;
+}
+
+.col1Lan select {
+    background: no-repeat;
+    border: none;
+    color: white;
+}
+.link {
+    text-align: left;
+    text-decoration: none;
+}
+
+.link ul li {
+    text-decoration: none;
+    contain: content;
+    padding: 5px;
+}
+
+.footerCol2 h2 {
+    padding-left: 40px;
+}
+button.footerBtn {
+    color: #0951a0;
+    padding: 12px;
+    border-radius: 50px;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.footerCol4 i {
+    padding: 6px;
+}
+
+.footerLineCont {
+    border: 1px solid #a2a2a2;
+}
+.bottomFooter {
+    padding-top: 13px;
+    font-size: 12px;
+}
